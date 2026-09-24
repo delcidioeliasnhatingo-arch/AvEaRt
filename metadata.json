@@ -1,0 +1,6 @@
+{
+  "name": "AVEART — Minimalist High-End Gaming Gear",
+  "description": "Premium gaming hardware and setups combining minimalist technology aesthetics with competitive esports performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
