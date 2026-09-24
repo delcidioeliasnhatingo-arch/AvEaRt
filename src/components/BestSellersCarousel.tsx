@@ -41,8 +41,8 @@ export const BestSellersCarousel: React.FC = () => {
   };
 
   return (
-    <section className="py-20 lg:py-28 bg-[#FFFFFF] border-b border-[#E5E5E5] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="best-sellers-section" className="py-20 lg:py-28 bg-[#FFFFFF] border-b border-[#E5E5E5] overflow-hidden">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-14">
         {/* Header with Title and Slider Navigation Controls */}
         <div className="flex items-end justify-between mb-10 pb-4 border-b border-[#E5E5E5]">
           <div>

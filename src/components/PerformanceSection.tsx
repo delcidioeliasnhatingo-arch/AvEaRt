@@ -30,8 +30,8 @@ export const PerformanceSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-[#F6F6F6] border-b border-[#E5E5E5]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="performance-section" className="py-20 lg:py-28 bg-white border-b border-[#E5E5E5]">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-14">
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span className="text-xs font-bold tracking-[0.2em] text-neutral-500 uppercase block mb-3">
@@ -53,7 +53,7 @@ export const PerformanceSection: React.FC = () => {
             return (
               <div
                 key={feature.title}
-                className="bg-white p-8 border border-[#E5E5E5] flex flex-col justify-between hover:border-[#111111] transition-colors"
+                className="bg-[#FBFBFB] p-8 border border-[#E5E5E5] flex flex-col justify-between hover:border-[#111111] hover:bg-white transition-all duration-200"
               >
                 <div>
                   <div className="flex items-center justify-between mb-8">

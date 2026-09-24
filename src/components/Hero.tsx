@@ -28,10 +28,10 @@ export const Hero: React.FC = () => {
 
   return (
     <section className="relative bg-white border-b border-[#E5E5E5] overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[640px] lg:min-h-[720px] items-stretch">
+      <div className="w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[640px] lg:min-h-[740px] items-stretch">
           {/* Left Side: Typography & Action Zone */}
-          <div className="lg:col-span-6 flex flex-col justify-center px-6 sm:px-12 lg:px-16 py-16 lg:py-24">
+          <div className="lg:col-span-6 xl:col-span-5 flex flex-col justify-center px-6 sm:px-12 lg:px-16 xl:px-24 py-16 lg:py-24">
             <div className="max-w-xl">
               {/* Eyebrow */}
               <div className="flex items-center gap-2 mb-6">
@@ -100,7 +100,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Right Side: Realistic Professional Setup Photography */}
-          <div className="lg:col-span-6 relative bg-[#F6F6F6] flex items-center justify-center overflow-hidden min-h-[420px] lg:min-h-full">
+          <div className="lg:col-span-6 xl:col-span-7 relative bg-[#F6F6F6] flex items-center justify-center overflow-hidden min-h-[440px] lg:min-h-full">
             <img
               src={HERO_IMAGE}
               alt="AVEART Minimalist Gaming Setup with Ultrawide Monitor and Custom Desktop"

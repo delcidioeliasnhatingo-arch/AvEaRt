@@ -32,22 +32,22 @@ const MainLayout: React.FC = () => {
 
       {/* Main Page Flow */}
       <main className="flex-1">
-        {/* 1. Hero Section */}
+        {/* 1. Hero Flagship Section */}
         <Hero />
 
-        {/* 2. Shop By Category */}
-        <Categories />
-
-        {/* 3. Featured Gaming Gear Grid */}
-        <FeaturedProducts />
-
-        {/* 4. Full-Width Editorial Split Banner */}
-        <EditorialBanner />
-
-        {/* 5. Best Sellers Horizontal Carousel */}
+        {/* 2. Top-Rated & Best Sellers Carousel */}
         <BestSellersCarousel />
 
-        {/* 6. Performance Without Compromise Section */}
+        {/* 3. Full-Width Editorial Split Banner (Build Your Setup) */}
+        <EditorialBanner />
+
+        {/* 4. Featured Gaming Gear Grid & Catalog */}
+        <FeaturedProducts />
+
+        {/* 5. Shop By Category Grid */}
+        <Categories />
+
+        {/* 6. Performance & Engineering Principles */}
         <PerformanceSection />
 
         {/* 7. Dark Minimal Newsletter */}

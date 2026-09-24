@@ -16,7 +16,7 @@ export const Newsletter: React.FC = () => {
 
   return (
     <section className="bg-[#111111] text-white py-20 lg:py-28 border-b border-[#222222]">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="w-full px-4 sm:px-8 lg:px-12 text-center">
         <span className="text-xs font-bold tracking-[0.25em] text-neutral-400 uppercase block mb-4">
           EXCLUSIVE COMMUNIQUÉ
         </span>

@@ -32,8 +32,8 @@ export const EditorialBanner: React.FC = () => {
         </div>
 
         {/* Right Side: Contrast Dark Section */}
-        <div className="lg:col-span-5 bg-[#111111] text-white flex flex-col justify-center px-8 sm:px-14 lg:px-16 py-16 lg:py-20">
-          <div className="max-w-md">
+        <div className="lg:col-span-5 bg-[#111111] text-white flex flex-col justify-center px-8 sm:px-14 lg:px-16 xl:px-24 py-16 lg:py-24">
+          <div className="max-w-lg">
             <span className="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase block mb-3">
               CURATED ECOSYSTEM
             </span>

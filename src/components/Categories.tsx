@@ -68,10 +68,10 @@ export const Categories: React.FC = () => {
   };
 
   return (
-    <section id="categories-section" className="py-20 lg:py-28 bg-white border-b border-[#E5E5E5]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="categories-section" className="py-20 lg:py-28 bg-[#F6F6F6] border-b border-[#E5E5E5]">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-14">
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 pb-4 border-b border-[#E5E5E5]">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 pb-4 border-b border-[#E5E5E5] gap-4">
           <div>
             <span className="text-xs font-bold tracking-[0.2em] text-neutral-500 uppercase block mb-2">
               DISCOVER HARDWARE
@@ -80,13 +80,13 @@ export const Categories: React.FC = () => {
               SHOP BY CATEGORY
             </h2>
           </div>
-          <p className="text-sm text-[#666666] mt-2 sm:mt-0 font-normal">
+          <p className="text-sm text-[#666666] font-normal">
             Precision instruments crafted for competitive performance.
           </p>
         </div>
 
-        {/* Categories Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {/* Categories Grid - Responsive 6 Columns */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 sm:gap-6">
           {categories.map((cat) => (
             <div
               key={cat.name}
